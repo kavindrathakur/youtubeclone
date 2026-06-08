@@ -1,0 +1,76 @@
+ a{
+    background-color:rgb(255,255,255);
+    color: rgb(0,113,133);
+    text-decoration: none;
+    font-size: 16px ;
+    font-family: Arial;
+  }
+  .back-button {
+    background-color: #ea84c1;
+    border: none;
+    padding: 20px 16px 20px 16px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+     margin-right: 10px;
+  }
+  .back-button:hover {
+    background-color: #440e2c;
+  }
+  .back-button::after {
+    opacity: 0.2;
+  }
+  .pageone {
+   
+    color: rgb(97, 168, 239);
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+    font-weight: bold;
+   
+     
+
+  }
+  .next-button {
+    background-color:#ea84c1;
+    border: none;
+    padding: 20px 16px 20px 16px;
+    cursor: pointer;
+    color: white;
+    margin-left:10px;
+    border-radius: 20px;
+  }
+  .next-button:hover {
+    background-color: #440e2c;
+  }
+  .next-button::after {
+    opacity: 0.2;
+  }
+  .pagetwo {
+   
+    color: rgb(97, 168, 239);
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    font-weight: bold;
+  }
+  .pagethree {
+
+    color: rgb(97, 168, 239);
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+    font-weight: bold;
+  }
+  .pagefour {
+  
+    color: rgb(97, 168, 239);
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    font-weight: bold;
+  }

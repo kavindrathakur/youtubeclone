@@ -1,0 +1,64 @@
+ .delivery-info {
+    font-size: 18px;
+    color: #131313;
+  }
+  .link {
+    color: rgb(0,113,133);
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .link:hover {
+    color: rgb(234, 192, 55);
+  }
+  .product-name {
+    font-size: 36px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .price {
+    font-size: 18 px;
+    font-weight: bold;
+    color: #279d15;
+  }
+.price:hover {
+    color: #ff9900;
+  }
+  .cart-button {
+    background-color: rgb(255,216,20);
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 14px;  
+    font-weight: bold;
+    transition-duration: background-color 0.3s, opacity 0.3s;
+  }
+  .cart-button:hover {
+    background-color: rgb(255, 130, 0);
+  }
+  .cart-button:active {
+    opacity: 0.7;
+  }
+  
+  .buy-button {
+    background-color: rgb(255,164,28  );
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition-duration: background-color 0.3s, opacity 0.3s;
+  } 
+  .buy-button:hover {
+    background-color: rgb(255, 130, 0);
+  } 
+  .buy-button:active {
+    opacity: 0.7;
+  } 

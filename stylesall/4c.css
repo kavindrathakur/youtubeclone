@@ -1,0 +1,19 @@
+.ddd {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: box-shadow 0.3s;
+  }
+  .ddd:hover {
+    box-shadow: 0px 4px 8px rgba(46, 164, 79, 0.3);
+  }
+  .ddd:active {
+    box-shadow: 0px 2px 4px rgba(46, 164, 79, 0.5);
+    margin: 6px 3px 6px 3px;
+  }
