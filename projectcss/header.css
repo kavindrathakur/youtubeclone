@@ -3,33 +3,100 @@
 margin-bottom : 40px;
 display: flex;
 flex-direction: row;
-justify-content:space-between
+justify-content:space-between;
+
+
 }
 .leftsection{
- 
-  background-color: rgb(11, 49, 98);
-  width: 150px;
+
+ display: flex;
+align-items: center;
 }
 .middlesection{
+  display: flex;
   flex: 1;
-  background-color: darkorchid;
+  
   margin: 0 30px 0 60px;
-  max-width: 600px;
+  max-width: 600px; 
+  align-items: center;
 }
 
 .rightsection{
-  background-color: tomato;
-  width: 200px;
+  
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 20px;
 }
 
 
 .search-bar {
-              border:  none;
-              box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-            height: 30px;
-            width: 300px;
-              border-radius: 10px;
-              margin-bottom: 20px;
+              border:  2px;
+              border-style: solid;
+              border-color: rgb(197, 189, 189);
+              box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+            flex: 1;
+              border-radius: 2px;
+              font-family: Roboto ,Arial;
+              font-size: 15px;
             padding-left: 10px;
+            height: 35px;
+            width: 0px;
             
             }
+
+            .search-bar::placeholder{
+
+              font-family: Roboto ,Arial ;
+              font-size: 15px;
+            }
+.menu{
+  height: 25px;;
+  margin: 0 24px 0 24px ; 
+
+}
+
+.logo{
+  height: 20px;
+  
+}
+
+.upload,.apps,.notiicon{
+  height: 24px;}
+
+  .ss{
+    height: 40px;
+    border-radius: 22px;
+  }
+
+.search-button{
+
+  width: 60px;
+height: 40px;
+background-color:white ;
+border: 2px;
+border-style: solid;
+border-color:rgb(197, 189, 189) ;
+margin-left: -2px;
+margin-right: 12px;
+
+}
+.voice-search-button{
+  width: 40px;
+  height: 40px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(225, 221, 221);
+  background-color: rgb(240, 229, 229);
+  border-radius: 50%;
+}
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+.voice-search-icon{
+  margin-top: 4px;
+
+}
