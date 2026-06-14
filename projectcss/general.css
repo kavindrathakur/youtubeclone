@@ -3,5 +3,11 @@
       margin: 0 0 0 0;
     }
     body{
+      background-color: rgb(233, 229, 229);
+      height: 3000px;
       margin: 0 0 0 0;
+      padding-top: 90px;
+      padding-left: 105px ;
+      padding-right: 25px;
+     
     }
